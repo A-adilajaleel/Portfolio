@@ -45,7 +45,13 @@ const Contact = () => {
           </div>
         </div>
 
-        <form className="space-y-10">
+        
+        <form
+          action="mailto:adilajaleel831@gmail.com"
+          method="POST"
+          encType="text/plain"
+          className="space-y-10"
+        >
           <div className="grid md:grid-cols-2 gap-10">
             <div className="group">
               <label className="text-[10px] font-bold uppercase tracking-widest text-slate-500 group-focus-within:text-amber-500 transition-colors">
@@ -53,8 +59,10 @@ const Contact = () => {
               </label>
               <input
                 type="text"
+                name="name"
                 placeholder="Your name"
                 className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-amber-500 transition-colors text-white"
+                required
               />
             </div>
 
@@ -64,8 +72,10 @@ const Contact = () => {
               </label>
               <input
                 type="email"
+                name="email"
                 placeholder="Your email"
                 className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-amber-500 transition-colors text-white"
+                required
               />
             </div>
           </div>
@@ -75,13 +85,18 @@ const Contact = () => {
               Message
             </label>
             <textarea
+              name="message"
               rows="3"
               placeholder="Write your message here"
               className="w-full bg-transparent border-b border-white/20 py-4 focus:outline-none focus:border-amber-500 transition-colors text-white resize-none"
+              required
             ></textarea>
           </div>
 
-          <button className="bg-white px-12 py-5 text-black font-black uppercase tracking-widest text-xs hover:bg-amber-500 transition-all">
+          <button
+            type="submit"
+            className="bg-white px-12 py-5 text-black font-black uppercase tracking-widest text-xs hover:bg-amber-500 transition-all"
+          >
             Send Message
           </button>
         </form>

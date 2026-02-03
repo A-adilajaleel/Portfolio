@@ -30,9 +30,12 @@ const Portfolio = () => {
                 View Projects
               </button>
             </a> 
-            <button className="border border-white/20 text-white px-12 py-5 rounded-sm font-black hover:bg-white hover:text-black transition-all uppercase tracking-widest text-xs">
+            <a 
+            href="/Adila.pdf"
+            download
+            className="border border-white/20 text-white px-12 py-5 rounded-sm font-black hover:bg-white hover:text-black transition-all uppercase tracking-widest text-xs">
               Download CV
-            </button>
+            </a>
           </div>
         </div>
       </section>
