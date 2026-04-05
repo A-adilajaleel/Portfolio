@@ -2,7 +2,7 @@ import React from 'react'
 import { Github, Linkedin, Mail, FileText, User, Globe, Layout, Palette, MapPin, Download } from 'lucide-react'
 
 const Portfolio = () => {
-  const resumePath = "/public/adiladeveloperfrontend.pdf"
+  const resumePath = "/public/Frontend_Developer.pdf"
   const profileImagePath = "https://i.pinimg.com/736x/ae/b1/7f/aeb17fe0919cda15cf48f4702e4692fe.jpg"
 
   const projects = [
