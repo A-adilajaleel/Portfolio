@@ -19,8 +19,8 @@ const Portfolio = () => {
       desc: "Built a professional finance dashboard with charts and analytics.",
       tech: ["React.js", "Tailwind CSS", "Recharts"],
       image: "/images/finance.png",
-      live: "https://finance-dashboard-three.vercel.app",
-      git: "https://github.com/A-adilajaleel"
+      live: "https://finance-dashboard-flax-psi-42.vercel.app/",
+      git: "https://github.com/A-adilajaleel/Finance-Dashboard"
     },
     {
       title: "Movie Discovery Dashboard",
